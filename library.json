@@ -1,0 +1,19 @@
+{
+	"name": "SimpleUntar",
+	"keywords": "tar, archive, unpack, ESP32, ESP8266",
+	"description": "SimpleUntar is a minimalistic object which can be used to unpack tar files onto a LittleFS filesystem. Tested for ESP8266 & ESP32 boards. Detailed instructions for use on Github page.",
+	"version": "0.1",
+	"authors": {
+		"name": "Steve Clarke",
+		"url": "https://github.com/trumpton",
+		"maintainer": true
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/trumpton/A38-SimpleUntar"
+	},
+	"homepage": "https://github.com/thijse/A38-SimpleUntar/",
+	"frameworks": ["arduino"],
+	"platforms": "*",
+	"examples": "examples/*/*.ino"
+}
