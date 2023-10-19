@@ -21,11 +21,11 @@ See LICENSE file
 
 The following code unpacks the test.tar file into the root folder
 
-`
+```
 SimpleUntar engine ;
 if (!engine.unpack("/test.tar", "/")) {
   Serial.printf("Untar Error: %s\n", engine.errorMessage()) ;
 } else {
   Serial.printf("Untar, unpacked %d files\n", engine.numFiles()) ;
 }
-`
+```
